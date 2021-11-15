@@ -5,5 +5,5 @@ google_analytics:
 theme: jekyll-theme-hacker
 author: meryem0x
 social_links:
-  twitter: meryem_0x
-  github:  meryem0x
+social_links:
+    github:  meryem0x
